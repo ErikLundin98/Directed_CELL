@@ -4,7 +4,7 @@ This repository contains implementations of generative models for directed and w
 
 The algorithm works by learning a low-rank approximation of the transition matrix of an input graph, and samples new graphs by sampling edges without replacement from the stationary version of this low-rank transition matrix.
 
-The CELL algorithm, is as-is only compatible with undirected graphs, but by making slight modifications to the learning process and graph sampling method of the algorithm, it is possible to extend it to directed graphs. Two approaches to this are available here, as well as an approach to generate weighted graphs. If you are interested in details, please see ...
+The CELL algorithm, is as-is only compatible with undirected graphs, but by making slight modifications to the learning process and graph sampling method of the algorithm, it is possible to extend it to directed graphs. Two approaches to this are available here, as well as an approach to generate weighted graphs. If you are interested in details, please see my master's thesis (to be added)
 
 ### DirectedCELL
 
